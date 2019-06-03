@@ -22,7 +22,13 @@ namespace SumBigNumber
             string opt = Console.ReadLine();
 
             var creator = new CalculationFactory();
+
+            // First method: using factory method:
             ICalculate calculate = creator.FactoryMethod(CalculationCreator.OperationType.BigSum);
+
+            // Second method: using Strategy method
+            BigCalculatorContext calculatorContext = new BigCalculatorContext();
+            
 
             string result = calculate.Calculate(numHolder);
             Console.WriteLine($"Result is: {result}");
