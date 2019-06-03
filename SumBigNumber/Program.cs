@@ -25,7 +25,7 @@ namespace SumBigNumber
 
             string result = calculate.Calculate(numHolder);
             Console.WriteLine($"Result is: {result}");
-
+            //
         }
     }
 }
