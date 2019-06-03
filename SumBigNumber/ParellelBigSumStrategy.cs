@@ -6,7 +6,7 @@ namespace SumBigNumber
 {
     public class ParellelBigSumStrategy : SumStrategy
     {
-        public override string Calculate(string[] stringNum)
+        public override string Calculate(List<string> stringNum)
         {
             throw new NotImplementedException();
         }

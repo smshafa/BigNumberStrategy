@@ -6,6 +6,6 @@ namespace SumBigNumber
 {
     public interface ICalculate
     {
-        string Calculate(string[] stringNum);
+        string Calculate(List<string> stringNum);
     }
 }
