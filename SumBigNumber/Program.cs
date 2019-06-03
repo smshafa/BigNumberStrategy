@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace SumBigNumber
 {
@@ -9,7 +10,7 @@ namespace SumBigNumber
             Console.WriteLine("***BigNumberStrategy***");
             Console.WriteLine("Please input the count of your numbers");
             byte countNum = Convert.ToByte(Console.ReadLine());
-            string[] numHolder = new string[countNum];
+            List<string> numHolder = new List<string>();
             for(int i = 0; i < countNum; i++)
             {
                 Console.WriteLine($"Number {i}:");

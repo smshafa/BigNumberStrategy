@@ -6,7 +6,7 @@ namespace SumBigNumber
 {
     public class BigCalculatorContext
     {
-        public string Calculate(ICalculate calculate, string[] stringNum)
+        public string Calculate(ICalculate calculate, List<string> stringNum)
         {
             return calculate.Calculate(stringNum);            
         }
