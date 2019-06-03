@@ -14,7 +14,7 @@ namespace SumBigNumber
             for(int i = 0; i < countNum; i++)
             {
                 Console.WriteLine($"Number {i}:");
-                numHolder[i] = Console.ReadLine();
+                numHolder.Add(Console.ReadLine());
             }
 
             Console.WriteLine("Please Choose your operation:");
