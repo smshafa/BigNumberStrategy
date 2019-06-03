@@ -4,8 +4,16 @@ using System.Text;
 
 namespace SumBigNumber
 {
+    /// <summary>
+    /// BigSumStrategy solves sum of big digit numbers.
+    /// </summary>
     public class BigSumStrategy : SumStrategy
     {
+        /// <summary>
+        /// Calculate sum of a set of big digit numbers.
+        /// </summary>
+        /// <param name="stringNum"></param>
+        /// <returns></returns>
         public override string Calculate(List<string> stringNum)
         {
             
@@ -22,7 +30,12 @@ namespace SumBigNumber
         }
 
 
-
+        /// <summary>
+        /// Sum two big digit numbers.
+        /// </summary>
+        /// <param name="num1">The first big digit number.</param>
+        /// <param name="num2">The second big digit number.</param>
+        /// <returns></returns>
         protected string Add(string num1, string num2)
         {
             int max = 0;    // the maximum of input 
