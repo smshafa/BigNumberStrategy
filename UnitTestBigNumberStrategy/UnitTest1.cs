@@ -57,5 +57,11 @@ namespace UnitTestBigNumberStrategy
             // Call method of context
             Assert.AreEqual(calculatorContext.Sum(mylist), "5556780035721132119");
         }
+
+        [TestMethod]
+        public void TestMultiple_Mock()
+        {
+
+        }
     }
 }

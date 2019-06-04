@@ -23,12 +23,18 @@ namespace SumBigNumber
             Console.WriteLine("1: +\n2: *\n3:-");
             string opt = Console.ReadLine();
 
-            var creator = new CalculationFactory();
+            // **** First method: using factory method: ****
 
-            // First method: using factory method:
+            var creator = new CalculationFactory();
+                       
             ICalculate calculate = creator.FactoryMethod(CalculationCreator.OperationType.BigSum);
 
-            // Second method: using Strategy method
+            string result = calculate.Calculate(numHolder);
+            Console.WriteLine($"Result of Factory method is: {result}");
+
+            // *********************************************
+
+            // **** Second method: using Strategy method ****
 
             StandardKernel kernel = new StandardKernel();
 
@@ -43,13 +49,12 @@ namespace SumBigNumber
             CalculatorContext calculatorContext = new CalculatorContext(objCalculate, objCalculate2);
 
             // Call method of context
-            Console.WriteLine(calculatorContext.Sum(numHolder));
+            Console.WriteLine($"Result of Strategy method is: {calculatorContext.Sum(numHolder)}");
             //Console.WriteLine(calculatorContext.Multiple(numHolder));
-            
 
-            string result = calculate.Calculate(numHolder);
-            Console.WriteLine($"Result is: {result}");
-            
+
+
+
         }
     }
 }
