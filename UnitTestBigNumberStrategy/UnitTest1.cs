@@ -34,7 +34,11 @@ namespace UnitTestBigNumberStrategy
             StandardKernel kernel = new StandardKernel();
 
             // Load Modules
-            kernel.Load(Assembly.GetExecutingAssembly());
+            // Assemblies of the current project.
+            //kernel.Load(Assembly.GetExecutingAssembly());
+
+            // Assemblies of the solution.
+            kernel.Load(AppDomain.CurrentDomain.GetAssemblies());
 
             CalculatorContext calculatorContext = null;
             try
