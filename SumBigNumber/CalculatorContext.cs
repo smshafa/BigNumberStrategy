@@ -1,18 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Ninject;
 
 namespace SumBigNumber
 {
     /// <summary>
     /// Context of factory method pattern.
     /// </summary>
-    public class BigCalculatorContext
+    public class CalculatorContext
     {
         SumStrategy sumStrategy;
         MultipleStrategy multipleStrategy;
 
-        public BigCalculatorContext(SumStrategy sumStrategy, MultipleStrategy multipleStrategy)
+        //public CalculatorContext([Named("Sum")] SumStrategy sumStrategy, [Named("Multiple")] MultipleStrategy multipleStrategy)
+        public CalculatorContext(SumStrategy sumStrategy, MultipleStrategy multipleStrategy)
         {
             this.sumStrategy = sumStrategy;
             this.multipleStrategy = multipleStrategy;
