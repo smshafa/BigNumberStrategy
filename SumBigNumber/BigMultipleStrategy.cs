@@ -7,7 +7,7 @@ namespace SumBigNumber
     /// <summary>
     /// BigMultipleStrategy solves multiple operation for big digit numbers.
     /// </summary>
-    class BigMultipleStrategy : MultipleStrategy
+    public class BigMultipleStrategy : MultipleStrategy
     {
         /// <summary>
         /// Calculates multiple operation for big digit numbers.
