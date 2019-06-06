@@ -9,6 +9,7 @@ namespace SumBigNumber
     {
         static void Main(string[] args)
         {
+            //test
             Console.WriteLine("***BigNumberStrategy***");
             Console.WriteLine("Please input the count of your numbers");
             byte countNum = Convert.ToByte(Console.ReadLine());
