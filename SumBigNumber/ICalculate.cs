@@ -5,10 +5,15 @@ using System.Text;
 namespace SumBigNumber
 {
     /// <summary>
-    /// ICalculate interface provides common methods to calculate common math operations.
+    /// A common interface for calculating common math operations.
     /// </summary>
     public interface ICalculate
     {
-        string Calculate(string[] stringNum);
+        /// <summary>
+        /// Calculates math operation.
+        /// </summary>
+        /// <param name="stringNum">A set of big digit numbers.</param>
+        /// <returns></returns>
+        string Calculate(List<string> stringNum);
     }
 }

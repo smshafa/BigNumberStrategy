@@ -4,9 +4,17 @@ using System.Text;
 
 namespace SumBigNumber
 {
-    class BigMultipleStrategy : MultipleStrategy
+    /// <summary>
+    /// BigMultipleStrategy solves multiple operation for big digit numbers.
+    /// </summary>
+    public class BigMultipleStrategy : MultipleStrategy
     {
-        public override string Calculate(string[] stringNum)
+        /// <summary>
+        /// Calculates multiple operation for big digit numbers.
+        /// </summary>
+        /// <param name="stringNum">A set of big digit number.</param>
+        /// <returns></returns>
+        public override string Calculate(List<string> stringNum)
         {
             throw new NotImplementedException();
         }

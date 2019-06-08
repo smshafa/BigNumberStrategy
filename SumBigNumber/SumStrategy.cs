@@ -14,6 +14,6 @@ namespace SumBigNumber
         /// </summary>
         /// <param name="stringNum">A set of numbers to add.</param>
         /// <returns>Result of sum.</returns>
-        public abstract string Calculate(string[] stringNum);
+        public abstract string Calculate(List<string> stringNum);
     }
 }
