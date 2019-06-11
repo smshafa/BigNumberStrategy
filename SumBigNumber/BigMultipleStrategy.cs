@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
-namespace SumBigNumber
+namespace BigNumberStrategy
 {
     /// <summary>
     /// BigMultipleStrategy solves multiple operation for big digit numbers.

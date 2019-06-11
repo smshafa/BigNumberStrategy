@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace SumBigNumber
+namespace BigNumberStrategy
 {
     /// <summary>
     /// A common interface for calculating common math operations.

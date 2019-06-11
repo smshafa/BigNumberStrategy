@@ -1,10 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using Ninject;
-using SumBigNumber;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
+using BigNumberStrategy;
 
 namespace UnitTestBigNumberStrategy
 {

@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Ninject;
+﻿using System.Collections.Generic;
 
-namespace SumBigNumber
+namespace BigNumberStrategy
 {
     /// <summary>
     /// Context of factory method pattern.

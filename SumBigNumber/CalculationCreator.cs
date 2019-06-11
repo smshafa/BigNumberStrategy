@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SumBigNumber
+﻿namespace BigNumberStrategy
 {
     /// <summary>
     /// An abstract class to creates factory design pattern.

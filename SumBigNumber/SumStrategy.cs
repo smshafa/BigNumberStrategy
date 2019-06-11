@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace SumBigNumber
+namespace BigNumberStrategy
 {
     /// <summary>
     /// SumStrategy class provides an abstract view to implement different strategy for add(sum) numbers.

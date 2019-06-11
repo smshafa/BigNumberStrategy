@@ -1,9 +1,9 @@
-﻿using Ninject;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Reflection;
+using Ninject;
 
-namespace SumBigNumber
+namespace BigNumberStrategy
 {
     class Program
     {

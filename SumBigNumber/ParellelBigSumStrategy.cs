@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
-namespace SumBigNumber
+namespace BigNumberStrategy
 {
     /// <summary>
     /// Provides parallel based to calculate sum operation.

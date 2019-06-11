@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SumBigNumber
+﻿namespace BigNumberStrategy
 {
     /// <summary>
     /// Factory method is implemented by this class.
