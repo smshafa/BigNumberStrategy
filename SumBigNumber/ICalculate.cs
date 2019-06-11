@@ -4,9 +4,6 @@ using System.Text;
 
 namespace SumBigNumber
 {
-    /// <summary>
-    /// A common interface for calculating common math operations.
-    /// </summary>
     public interface ICalculate
     {
         /// <summary>
